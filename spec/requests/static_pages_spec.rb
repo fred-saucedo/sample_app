@@ -38,4 +38,13 @@ describe "Static Pages" do
       expect(page).to have_title('BottleFly | About')
     end
   end
+
+  describe "Contact page" do
+    it "should have title 'Contact'" do
+      visit '/static_pages/contact'
+      expect(page).to have_title('Contact')
+
+    end
+  end
+
 end
