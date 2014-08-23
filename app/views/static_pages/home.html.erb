@@ -1,5 +1,12 @@
 <%provide(:title, 'Home') %>
-<h1>Home</h1>
-<p>This is the homepage for the tutorial.
-  This will be the home for BottleFly
-</p>
+
+<div class = "center hero-unit">
+  <h1>Welcome to BottleFly</h1>
+  <h2>
+    This is the home page for what will be BottleFly
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

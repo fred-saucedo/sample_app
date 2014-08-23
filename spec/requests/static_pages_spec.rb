@@ -1,50 +1,36 @@
 require 'spec_helper'
 
 describe "Static Pages" do
- describe "Home page" do
-  it "should have the content 'Home'" do
-    visit '/static_pages/home'
-    expect(page).to have_content('Home')
+subject{page}
+
+  describe "Home page" do
+    before {visit root_path}
+
+    it {should have_content('home page')}
+    it { should have_title(full_title('Home')) }
+
   end
 
-   it "should have the title 'Home'" do
-     visit '/static_pages/home'
-     expect(page).to have_title('BottleFly | Home')
-   end
- end
-
   describe "Help page" do
-    it "should have the content 'Help'" do
-      visit '/static_pages/help'
-      expect(page).to have_content('Help')
-    end
 
-    it "should have the title 'Help'" do
-      visit '/static_pages/help'
-      expect(page).to have_title('BottleFly | Help')
-    end
+    before { visit help_path }
+
+    it { should have_content('Help')}
+    it { should have_title(full_title('Help'))}
   end
 
  #describes the about page,as the name states
 
   describe "About page" do
-    it "should have the content 'About Us'" do
-      visit '/static_pages/about'
-      expect(page).to have_content('About Us')
-    end
+    before {visit about_path}
 
-    it "should have the title 'About'"do
-      visit '/static_pages/about'
-      expect(page).to have_title('BottleFly | About')
-    end
+    it { should have_content('About Us')}
+    it  { should have_title(full_title('About Us'))}
   end
-
+  #tests the contact page
   describe "Contact page" do
-    it "should have title 'Contact'" do
-      visit '/static_pages/contact'
-      expect(page).to have_title('Contact')
-
-    end
+    before {visit contact_path}
+    it { should have_title(full_title('Contact'))}
   end
 
 end
