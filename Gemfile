@@ -4,6 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
+
+#the following gem is for state of the art 
+#hash function for encrypting user password data
+
+gem 'bcrypt-ruby', '3.1.2'
 group :development, :test do
    gem 'sqlite3', '1.3.8'
    gem 'rspec-rails', '2.13.1'
