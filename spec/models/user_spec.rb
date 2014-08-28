@@ -12,6 +12,12 @@ describe User do
   it {should respond_to(:password)}
   it {should respond_to(:password_confirmation)}
   it {should respond_to(:authenticate)}
+  #for rememberign token
+  it {should respond_to (:password_confirmation)}
+  it {should respond_to (:remember_token)}
+  it {should respond_to (:authenticate)}
+  #-------------------------------------------
+
 
   it { should be_valid }
 
@@ -24,7 +30,7 @@ describe User do
   #describes when a username is too long
   describe "when name is too  long" do 
   	before { @user.name = "a" * 51 }
-  	it {should_not be_valid}
+  	it { should_not be_valid }
   end
 
 
@@ -58,10 +64,10 @@ describe User do
   #setting up testing to email uniqueness 
   describe "when email address is already taken" do 
   	before do  
-  	#creating a duplicate user profile
-  	user_with_same_email = @user.dup
-  	user_with_same_email.email = @user.email.upcase
-  	user_with_same_email.save
+    	#creating a duplicate user profile
+    	user_with_same_email = @user.dup
+    	user_with_same_email.email = @user.email.upcase
+    	user_with_same_email.save
   	end
 
   	it {should_not be_valid }
@@ -101,5 +107,10 @@ describe User do
       it { should_not eq user_for_invalid_password }
       specify { expect(user_for_invalid_password).to be_false }
     end
+  end
+  #token authentication
+  describe "remember token" do 
+    before { @user.save } 
+    its(:remember_token) {should_not be_blank}
   end
 end
