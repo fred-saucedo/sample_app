@@ -1,12 +1,14 @@
 <%provide(:title, 'Home') %>
 
-<div class = "center hero-unit">
+<div class = "center hero-unit" style=" background: rgba(0,0,0,0.5);">
   <h1>Welcome to BottleFly</h1>
   <h2>
-    This is the home page for what will be BottleFly
+    We are working hard to bring you the best tasting experince
   </h2>
-
+  <div id ="countdown">
+  </div>
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+<!--%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %-->
+
