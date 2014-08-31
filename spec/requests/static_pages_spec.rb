@@ -6,7 +6,7 @@ subject{page}
   describe "Home page" do
     before {visit root_path}
 
-    it {should have_content('home page')}
+    it {should have_content('Welcome to BottleFly')}
     it { should have_title(full_title('Home')) }
 
   end

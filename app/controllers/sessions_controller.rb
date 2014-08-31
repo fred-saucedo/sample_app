@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
    	if user && user.authenticate(params[:session][:password])
    		#user is authenticated and can sign inr
    		sign_in user
-   		redirect_to user
+   		redirect_back_or user
 
    	else
    		#creaet error message as to why the user can't sign in

@@ -17,7 +17,7 @@ html {
 }
 body {
   padding-top: 60px;
-  background-image: url(<%= asset_path 'background.jpg' %>);
+  /*background-image: url(<%= asset_path 'background.jpg' %>); */
 }
 @media (max-width: 100px) {
   body {
@@ -194,4 +194,17 @@ input {
   color:#202020 ;
   line-height: 1.1em;
   margin: 40px 0 60px;
+}
+
+.users {
+  list-style: none; 
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0; 
+    border-top: 1px solid $grayLighter;
+    &:last-child{
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
 }
