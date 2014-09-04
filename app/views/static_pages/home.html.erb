@@ -20,13 +20,11 @@
 		</div>
 	</div>
 <%else %>
-<div class = "center hero-unit" style=" background: rgba(0,0,0,0.5);">
-  <h1>Welcome to BottleFly</h1>
-  <h2>
+<div class = "center hero-unit" style=" background-image: url(<%= asset_path 'cool_sun.jpg'%>);">
+  <h1>Welcome to BottleFly.</h1>
+  <p>
     We are working hard to bring you the best tasting experince
-  </h2>
-  <div id ="countdown">
-  </div>
+  </p>
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 <% end %>
