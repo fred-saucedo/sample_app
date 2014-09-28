@@ -10,8 +10,11 @@ gem 'autoprefixer-rails'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
-
-
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+# Add this if you're using rvm
+gem 'capistrano-rvm', github: "capistrano/rvm"
 
 
 
