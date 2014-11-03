@@ -1,6 +1,10 @@
 GIT
   remote: git://github.com/capistrano/rvm.git
+<<<<<<< HEAD
   revision: 805d76b30443ff7f62a64d8e69fda22e29cb5765
+=======
+  revision: dc35ec5e7a74a422250bd6ff5e8885c8b742d0e5
+>>>>>>> 3d20880a0c04c6cc51e8f0ede0675e131b0987a1
   specs:
     capistrano-rvm (0.1.1)
       capistrano (~> 3.0)
@@ -34,7 +38,11 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
+<<<<<<< HEAD
     autoprefixer-rails (3.1.1.20141001)
+=======
+    autoprefixer-rails (3.1.0.20140911)
+>>>>>>> 3d20880a0c04c6cc51e8f0ede0675e131b0987a1
       execjs
     bcrypt-ruby (3.1.2)
     bootstrap-sass (2.3.2.0)
@@ -81,7 +89,11 @@ GEM
       railties (>= 3.0.0)
     faker (1.1.2)
       i18n (~> 0.5)
+<<<<<<< HEAD
     ffi (1.9.6)
+=======
+    ffi (1.9.5)
+>>>>>>> 3d20880a0c04c6cc51e8f0ede0675e131b0987a1
     formatador (0.2.5)
     guard (2.6.1)
       formatador (>= 0.2.4)
@@ -106,7 +118,10 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.1)
+<<<<<<< HEAD
     libv8 (3.16.14.7)
+=======
+>>>>>>> 3d20880a0c04c6cc51e8f0ede0675e131b0987a1
     listen (2.7.11)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -208,9 +223,12 @@ GEM
       colorize
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+<<<<<<< HEAD
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
+=======
+>>>>>>> 3d20880a0c04c6cc51e8f0ede0675e131b0987a1
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
@@ -218,6 +236,93 @@ GEM
       hitimes
     treetop (1.4.15)
       polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
+      polyglot (>= 0.3.1)
       polyglot (>= 0.3.1)
     turbolinks (2.4.0)
       coffee-rails
